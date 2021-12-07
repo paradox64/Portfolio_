@@ -1,0 +1,23 @@
+
+.containerProjects{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin:2%;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 96%;
+    height: auto;
+    border-radius: 2%;
+    align-content: space-between;
+    box-shadow: 4px 2px 60px 6px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 4px 2px 60px 6px rgba(0,0,0,0.58);
+    -moz-box-shadow: 4px 2px 60px 6px rgba(0,0,0,0.58);
+}
+
+.ProjectTitle{
+    margin: 5%;
+    font-size:10vh;
+    color: #9cc0e9;
+    border-bottom: 3px solid #9cc0e9;
+    font-family: 'Alumni Sans', sans-serif;
+}

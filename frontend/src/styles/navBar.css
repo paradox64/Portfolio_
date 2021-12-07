@@ -1,0 +1,56 @@
+.navContainer{
+    z-index: 3;
+    width: 50%;
+    margin-top:-16px;
+    margin-left: 50%;
+    position: fixed;
+    display: block;
+  
+   
+}
+
+ul{
+
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    flex-basis: 10% 10% 80%;
+}
+
+
+.NavBarItem{
+    text-align: center;
+    padding-bottom: 2vh;
+    background-color: #4895EF;
+    width: 100%;
+    height: 100%;
+    border: 1px outset #000000;
+    color: #FFFFFF;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 26px;
+    font-weight:bolder;
+    text-shadow: 0 0 10px #FFFFFF;
+    border: 2px ridge rgba(76,201,240,0.61);
+    border-bottom: 5px outset rgba(58,12,163,0.72);
+    transition: transform 1s;
+    border-radius:0 0 50px 50px ;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 4px 26px 42px -13px rgba(0,0,0,0.55); 
+    box-shadow: 0px 10px 13px -7px #000000, 4px 26px 42px -13px rgba(0,0,0,0.55);   
+    transform: translateY(-30px );
+}
+
+.NavBarItem:hover{
+    transform: translateY(0px );
+}
+
+#homeBar{   
+    background-color: rgb(248, 95, 56);
+}
+
+#projectBar{
+    background-color: rgb(135, 184, 0);
+}
+

@@ -1,0 +1,35 @@
+.backGroundImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 600px;
+    width: 100%;
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/26/35/ZSuk36.jpg');
+    background-repeat:no-repeat;
+    background-position: 100vw 100vh;
+    border-radius: 0% 0% 2% 2%;
+    border-bottom: #000000 solid 2px;
+    
+}
+
+.tittle,.subtittle{
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight:bolder;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
+}
+
+.tittle{
+  font-size: 100px;
+  flex: 50%; 
+  margin-top: 16vh;
+  margin-left:10px;
+  margin-bottom: 0px;
+}
+
+.subtittle{
+    font-size: 40px;
+    flex: 50%;
+    margin-left:100px;
+    margin-bottom: 50vh;
+  }
