@@ -54,3 +54,8 @@ ul{
     background-color: rgb(135, 184, 0);
 }
 
+
+@media only screen and (max-width: 600px) {
+    .NavBarItem{ transform: translateY(0px );
+}
+}

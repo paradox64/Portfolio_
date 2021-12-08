@@ -2,6 +2,7 @@
     align-self: center;
     margin: 10px;
     width: 400px;
+    min-width: 320px;
     height: 500px;
     display: flex;
     overflow: hidden;
@@ -16,7 +17,7 @@
 }
 .tittleProject{
     font-family: 'Alumni Sans', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     flex: 10%;
     width: 100%;
     height: 10%;
