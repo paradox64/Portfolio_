@@ -10,10 +10,11 @@
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: 500px auto;
-    border-radius: 25px 25px 1% 1%;
+    border-radius: 25px 25px 12px 12px;
     box-shadow: -14px 23px 28px -10px rgba(0,0,0,0.58);
     -webkit-box-shadow: -14px 23px 28px -10px rgba(0,0,0,0.58);
     -moz-box-shadow: -14px 23px 28px -10px rgba(0,0,0,0.58);
+    box-shadow:inset 20px 50px 50px rgba(0, 0, 0, 0.726);
 }
 .tittleProject{
     font-family: 'Alumni Sans', sans-serif;
@@ -24,6 +25,7 @@
     margin: 0%;
     padding-left: 23px;
     transition: all 2s;
+    
 }
 .icon{
     
@@ -44,8 +46,8 @@
 
 
 .icon:hover{
-  
-    background-color: #8fb2da;
+    box-shadow: 0px 2px black;
+    background-color: #cfda8f;
     transition: all 0.2s;
 }
 
@@ -56,8 +58,11 @@
     background-color: #4895EF;
     margin-bottom: 0%;
     padding:5%;
+    font-style: italic;
+    text-align: center;
     transition: all 2s;
     border-radius: 10px 10px 0 0;
+    box-shadow:inset 0px 0px 20px rgba(0, 0, 0, 0.616);
 }
 
 

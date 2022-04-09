@@ -1,12 +1,10 @@
 .aboutContainerAll{
-    display: flex;
     margin-bottom: 240px;
- 
-    
+
 }
 
 .aboutContainer{
-    position: relative;
+    flex-direction: column;
     z-index: -1;
     display: flex;
     padding: 2%;
@@ -31,4 +29,68 @@
     box-shadow: 4px 2px 60px 6px rgba(0,0,0,0.58);
     -webkit-box-shadow: 4px 2px 60px 6px rgba(0,0,0,0.58);
     -moz-box-shadow: 4px 2px 60px 6px rgba(0,0,0,0.58);
+}
+
+.iconSection{
+    margin-left: 10%;
+}
+
+.iconExp{
+    width: 10vw;
+    min-width: 100px;
+    margin: 8px;
+}
+
+
+
+#css-icon{
+    transform: translate(0,70px);
+}
+
+#sql-icon{
+    transform: translate(0,40px);
+}
+#node-icon{
+    transform: translate(0,30px);
+}
+
+#html-icon{
+    transform: translate(0,40px);
+}
+#react-icon{
+    transform: translate(0,30px);
+}
+
+
+@media (max-width: 938px) {
+    .aboutContainerAll{
+        margin: 0px;
+        justify-content: flex-start;
+    }
+    #css-icon{
+        transform: translate(0,0);
+    }
+    #react-icon{
+        transform: translate(0,0);
+    }
+    #sql-icon{
+        transform: translate(0,0);
+    }
+
+    #node-icon{
+        transform: translate(0,0);
+    }
+
+    #html-icon{
+        transform: translate(0,0);
+    }
+}
+
+.contactTitle{
+    padding: 0%;
+    font-size:10vh;
+    color: #9cc0e9;
+    border-bottom: 3px solid #9cc0e9;
+    font-family: 'Alumni Sans', sans-serif;
+    width: 100%;
 }

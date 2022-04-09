@@ -16,7 +16,7 @@ const Bio = ()=> {
             setY(backGroundY-e.movementY*0.1);}}
          style={{backgroundPositionX:backGroundX,backgroundPositionY:backGroundY}}>
         <h1 className="tittle"   style={{transform:`translate(${positionH1x}px, ${positionH1y}px)`}}>Salvador Scafati</h1>
-        <h2 className="subtittle"  style={{transform:`translate(${positionH1x*0.5}px, ${positionH1y*0.5}px)`}} > Software Developer</h2>
+        <h2 className="subtittle"  style={{transform:`translate(${positionH1x*0.5}px, ${positionH1y*0.5}px)`}} > PortFolio</h2>
         </div>
     </div>
 }

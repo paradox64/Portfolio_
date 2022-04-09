@@ -36,7 +36,7 @@ export const ContactUs = () => {
   };
 
 
-  return (<div>
+  return (<div id="formContact">
     <form ref={form} onSubmit={sendEmail} className="formContact">
       <label className="formLabel">Name</label>
       <input style={{width:`25vh`}} className="formInput" type="text" name="user_name" value={name} onChange={(e)=>setName(e.target.value)}/>

@@ -13,7 +13,7 @@ function App() {
       <Bio />
       <About />
       <Projects />
-      <Contact />
+      <Contact/>
     </div>
   );
 }

@@ -21,7 +21,7 @@ const Projects = ()=> {
         ])
     },[])
     
-    return <div>
+    return <div id="projects">
         <h1 className="ProjectTitle">Projects</h1>
         <div className="containerProjects">
         {projectData.map((e)=>{

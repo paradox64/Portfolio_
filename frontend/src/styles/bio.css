@@ -13,23 +13,27 @@
 }
 
 .tittle,.subtittle{
-    font-family: 'Alumni Sans', sans-serif;
+  text-align: center;
+    font-family: 'Tahoma';
     font-weight:bolder;
-    color: #FFFFFF;
+    color: #000000;
     text-shadow: 0 0 10px #FFFFFF;
+    opacity: 0.9;
 }
 
 .tittle{
-  font-size: 100px;
-  flex: 50%; 
-  margin-top: 16vh;
+  
+  transform: skew(-0.06turn, 18deg);
+  font-size: 60px;
+  margin-top: 200px;
   margin-left:10px;
   margin-bottom: 0px;
 }
 
 .subtittle{
-    font-size: 40px;
-    flex: 50%;
-    margin-left:100px;
+  margin-top: 0px;
+    font-size: 40px;  
+    margin-left:300px;
     margin-bottom: 50vh;
   }
+
