@@ -6,7 +6,7 @@ import "../styles/navBar.css"
 const NavBar = ()=> {
 
     return <div className="navContainer">
-    <ul class="navAllitems">
+    <ul className="navAllitems">
         <a className='NavBarItem' href={"#about"}>       
             <h1>About</h1>
         </a>

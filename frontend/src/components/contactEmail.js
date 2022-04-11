@@ -17,7 +17,7 @@ export const ContactUs = () => {
     if (name==="" || mail==="" || message===""){
       alert('Complete all the fields in the form')
     }else{
-    emailjs.sendForm('service_dke902q', 'template_qu5k0g9', form.current, 'user_Xtq7ZgZrZSEWBflmeZHkd')
+    emailjs.sendForm('service_dke902q', 'template_qu5k0g9', form.current, '-XBOvYS3hjgyXFX--')
       .then((result) => {
         console.log(result.text)
           if (result.text==="OK"){
