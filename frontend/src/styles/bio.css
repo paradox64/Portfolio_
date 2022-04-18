@@ -33,7 +33,15 @@
 .subtittle{
   margin-top: 0px;
     font-size: 40px;  
-    margin-left:300px;
     margin-bottom: 50vh;
   }
 
+  @media (max-width: 650px) {
+    
+    .tittle{
+      font-size: 36px;
+    }
+    .subtittle{
+      font-size: 20px;
+    }
+  }

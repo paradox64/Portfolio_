@@ -2,7 +2,6 @@
     align-self: center;
     margin: 10px;
     width: 400px;
-    min-width: 320px;
     height: 500px;
     display: flex;
     overflow: hidden;
@@ -66,3 +65,20 @@
 }
 
 
+@media screen and (max-width:500px) {
+    
+.tittleProject{
+    font-size: 18px;
+    text-align: center;
+}
+
+.projectItem{
+    height: 400px;
+}
+.icon{
+    border-radius:0 0 0 25px ;
+}
+.about{
+    font-size: 12px;
+}
+}

@@ -37,4 +37,7 @@
     .navAllitems{
         font-size: x-small;
     }
+    .navAllitems{
+        flex-wrap: wrap;
+    }
 }
