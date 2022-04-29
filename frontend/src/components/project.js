@@ -8,6 +8,11 @@ const Projects = ()=> {
 
     useEffect(()=>{
         setPrData([
+            {name:"Literature ",
+            about:"Boca de sapo is a magazine focused on Art and literature",
+            imageSrc:(process.env.PUBLIC_URL +"/bds.png"),
+            linkGithub:"",
+            linkDemo:"https://bocadesapo.netlify.app/"},
             {name:"Memory Game",
             about:"The memory game is a board game with a specific deck of cards. The objective is to find the pairs with the same printed figure using memory",
             imageSrc:(process.env.PUBLIC_URL +"/memorySite.png"),
